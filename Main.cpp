@@ -181,7 +181,7 @@ void cetakMatriksInvers(float M[SIZE][SIZE], int n) {
     printf("\nMatriks Invers adalah:\n");
     for (int i = 1; i <= n; i++) {
         for (int j = n + 1; j <= 2 * n; j++) {
-            printf("%.2f\t", M[i][j]);  // Menampilkan hanya matriks invers
+            printf("%.2f\t", M[i][j]);
         }
         printf("\n");
     }
